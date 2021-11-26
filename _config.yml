@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -17,18 +17,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Arlo
+title: Molla Hafizur Rahman
 description: 'vCard & Resume Template'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://arlo-jekyll-theme.vercel.app" # the base hostname & protocol for your site, e.g. http://example.com
 
-logo: 
+logo:
   logo: 'img/logo/logo.png'
   light: 'img/logo/light.png'
   mobile: 'img/logo/mobile.png'
 favicon:  ''
 
-vendor: 
+vendor:
   name: DUCOR
   url: "https://themeforest.net/user/ducor"
 
@@ -98,7 +98,7 @@ compress_html:
     envs: development
 
 ##
-getform_id: # to go https://getform.io/ and create an account for contact form 
+getform_id: # to go https://getform.io/ and create an account for contact form
 
 
 ##########################################################################
@@ -110,19 +110,19 @@ bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 og_image                 : '/images/profile.jpg' # Open Graph/Twitter default site image
-header: 
+header:
   - image                 : '/images/profile.jpg'
 
 ###########################################################################
 ###########################   Home / hero  ################################
 ###########################################################################
 
-first_name: Albert
-last_name: Walkers
-date_of_bath: '1990-07-01 00:00'
-email: 'mymail@gmail.com'
-phone: '+77 022 177 05 05'
-address: 'Ave 11, New York, USA'
+first_name: Molla Hafizur
+last_name: Rahman
+date_of_bath: '1992-09-10 00:00'
+email: 'hafiz.sunny0909@gmail.com'
+phone: '+1 4798008544'
+address: '920 N Leverette Ave, Fayetteville, AR, USA'
 interests: 'Playstation, Reading'
 study: 'Univercity of Chicago'
 degree: 'Master'
@@ -131,7 +131,7 @@ user_intro: ' I am a Web Developer, and I&#39;m very passionate and dedicated to
 
 
 freelance_hire: true
-professions: 
+professions:
   - photographer
   - blogger
   - web developer
@@ -142,17 +142,17 @@ social_link:
   - name: facebook
     icon: "xcon-facebook"
     link: "#"
-  - name: twitter 
+  - name: twitter
     icon: "xcon-twitter"
     link: "#"
 
-  - name: linkedin 
+  - name: linkedin
     icon: "xcon-linkedin"
     link: "#"
-  - name: instagram 
+  - name: instagram
     icon: "xcon-instagram"
     link: "#"
-  - name: behance 
+  - name: behance
     icon: "xcon-behance"
     link: "#"
 
@@ -171,19 +171,19 @@ our_services:
   - name: 'Brand Identity'
     image: 'img/svg/line-chart.svg'
     description: 'Web design is a similar process of creation, with the intention of presenting...'
-  
+
   - name: 'Creative Design'
     image: 'img/svg/light-bulb.svg'
     description: 'Web design is a similar process of creation, with the intention of presenting...'
-  
+
   - name: 'Adobe Illustrator'
     image: 'img/svg/adobe-illustrator.svg'
     description: 'Web design is a similar process of creation, with the intention of presenting...'
-  
+
   - name: 'Adobe Photoshop'
     image: 'img/svg/adobe-photoshop.svg'
     description: 'Web design is a similar process of creation, with the intention of presenting...'
-  
+
   - name: 'Social Media'
     image: 'img/svg/twitter-1.svg'
     description: 'Web design is a similar process of creation, with the intention of presenting...'
@@ -197,13 +197,13 @@ professional_skill_description: 'I provide cost-effective and high quality produ
 professional_skills:
   - name: 'WordPress'
     percentage: '90'
-  
+
   - name: 'PHP / MYSQL'
     percentage: '65'
-  
+
   - name: 'HTML / CSS / JS'
     percentage: '95'
-  
+
   - name: 'Photoshop'
     percentage: '85'
 ##########################################
@@ -213,7 +213,7 @@ portfolio_title: 'Creative Works'
 portfolio_tagline: 'Portfolios'
 portfolio_categories: ['video', 'animation', 'image']
 
-portfolios: 
+portfolios:
   - main_image: 'img/portfolio/1.jpg'
     title: 'Popup Video'
     type: 'video'
@@ -224,32 +224,32 @@ portfolios:
     title: 'Popup Image'
     type: 'image'
     category: 'image'
-    video_link: 
+    video_link:
 
   - main_image: 'img/portfolio/8.webp'
     title: 'Animate Image'
     type: 'animation'
     category: 'animation'
-    video_link: 
+    video_link:
 
 
   - main_image: 'img/portfolio/4.jpg'
     title: 'Popup Image'
     type: 'image'
     category: 'image'
-    video_link: 
+    video_link:
 
   - main_image: 'img/portfolio/5.jpg'
     title: 'Popup Image'
     type: 'image'
     category: 'image'
-    video_link: 
+    video_link:
 
   - main_image: 'img/portfolio/6.jpg'
     title: 'Popup Image'
     type: 'image'
     category: 'image'
-    video_link: 
+    video_link:
 
 ############################################
 ############## testimonial #################
@@ -259,7 +259,7 @@ testimonials:
     author_name: 'Steve Collins'
     author_image: '/img/about/2.jpg'
     author_profession: 'Photographer'
-  
+
 #############################################
 ############ EXPERIENCE #####################
 #############################################
@@ -289,7 +289,7 @@ experiences:
     title: 'Ui/Ux Designer'
     description: 'Web development refers to building, creating, and an maintaining websites. It includes aspects such as web design, web programming, and database management.'
 
-  
+
 #################################
 ####### Pricing Tables ##########
 #################################
@@ -343,7 +343,7 @@ fun_facts:
   - name: "1250 km Cycled"
     icon: "la la-bicycle"
 
-  
+
 
 ############ Clients ##########
 clients:
@@ -371,4 +371,3 @@ clients:
   - image: "images/clients/client_4.png"
     name: ""
     url: "#"
-  
