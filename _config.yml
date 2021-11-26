@@ -29,8 +29,8 @@ logo:
 favicon:  ''
 
 vendor:
-  name: DUCOR
-  url: "https://themeforest.net/user/ducor"
+  name: Molla Hafizur Rahman
+  url: "https://github.com/HafizSunny"
 
 html_directionality:  'rtl' # ltl ( default ) "rtl", ltl
 # Build settings
