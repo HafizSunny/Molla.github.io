@@ -163,7 +163,7 @@ our_services_title: 'Skills'
 our_services_tagline: 'What I Do'
 
 our_services:
-  - name: "Programming"
+  - name: "Programming language"
     image: "img/svg/source.svg"
     description: "C++, Python, R, SQL, MATLAB"
 
@@ -173,10 +173,10 @@ our_services:
 
   - name: 'Data vizualization'
     image: 'img/svg/line-chart.svg'
-    description: 'Matplotlib, Seaborn, Bokeh, Tabeau'
+    description: 'Matplotlib, Seaborn, Bokeh, Tabeau, ggplot'
 
-  - name: 'Adobe Illustrator'
-    image: 'img/svg/adobe-illustrator.svg'
+  - name: 'Platform'
+    image: 'img/svg/console.svg'
     description: 'Web design is a similar process of creation, with the intention of presenting...'
 
   - name: 'Adobe Photoshop'
