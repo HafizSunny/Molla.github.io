@@ -165,7 +165,7 @@ our_services_tagline: 'What I Do'
 our_services:
   - name: "Programming"
     image: "img/svg/source.svg"
-    description: "C++, Python, R, SQL"
+    description: "C++, Python, R, SQL, MATLAB"
 
   - name: 'ML library'
     image: 'img/svg/light-bulb.svg'
