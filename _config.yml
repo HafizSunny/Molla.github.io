@@ -163,13 +163,13 @@ our_services_title: 'Skills'
 our_services_tagline: 'What I Do'
 
 our_services:
-  - name: "Coding"
+  - name: "Programming"
     image: "img/svg/source.svg"
-    description: "Web design is a similar process of creation, with the intention of presenting.."
+    description: "C++, Python, R"
 
-  - name: 'Brand Identity'
+  - name: 'Machine learning library'
     image: 'img/svg/line-chart.svg'
-    description: 'Web design is a similar process of creation, with the intention of presenting...'
+    description: 'TensorFlow, PyTorch, Scikit-learn, Pandas, Numpy,'
 
   - name: 'Creative Design'
     image: 'img/svg/light-bulb.svg'
