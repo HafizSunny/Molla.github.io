@@ -136,7 +136,7 @@ professions:
   - Data analyst
   - Mechanical engineer
   - Data scientist
-author_description: "<strong>Hello, I’m a Patrick</strong>, web-developer based on Paris. <br> I have rich experience in web site design &amp; building <br> and customization. Also I am good at <strong>html, css, <br> wordpress, php, jquery, bootstrap.</strong>"
+author_description: "<strong>Hello, I’m a Molla Hafizur</strong>, web-developer based on Paris. <br> I have rich experience in web site design &amp; building <br> and customization. Also I am good at <strong>html, css, <br> wordpress, php, jquery, bootstrap.</strong>"
 social_link:
   - name: facebook
     icon: "xcon-facebook"
@@ -159,11 +159,11 @@ social_link:
 #############################################
 ######### Our Services ######################
 #############################################
-our_services_title: 'Services'
+our_services_title: 'Skills'
 our_services_tagline: 'What I Do'
 
 our_services:
-  - name: "Web Development"
+  - name: "Coding"
     image: "img/svg/source.svg"
     description: "Web design is a similar process of creation, with the intention of presenting.."
 
