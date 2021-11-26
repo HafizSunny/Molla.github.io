@@ -124,19 +124,18 @@ email: 'hafiz.sunny0909@gmail.com'
 phone: '+1 4798008544'
 address: '920 N Leverette Ave, Fayetteville, AR, USA'
 interests: 'Playstation, Reading'
-study: 'Univercity of Chicago'
-degree: 'Master'
+study: 'Univercity of Arkansas'
+degree: 'PhD'
 cv_download_link: '#'
-user_intro: ' I am a Web Developer, and I&#39;m very passionate and dedicated to my work. With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.'
+user_intro: ' I am a Data scientist, and I&#39;m very passionate and dedicated to my work. With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.'
 
 
 freelance_hire: true
 professions:
-  - photographer
-  - blogger
-  - web developer
-  - freelancer
-  - photographer
+  - Data scientist
+  - Data analyst
+  - Mechanical engineer
+  - Data scientist
 author_description: "<strong>Hello, I’m a Patrick</strong>, web-developer based on Paris. <br> I have rich experience in web site design &amp; building <br> and customization. Also I am good at <strong>html, css, <br> wordpress, php, jquery, bootstrap.</strong>"
 social_link:
   - name: facebook
