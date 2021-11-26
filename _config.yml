@@ -165,15 +165,15 @@ our_services_tagline: 'What I Do'
 our_services:
   - name: "Programming"
     image: "img/svg/source.svg"
-    description: "C++, Python, R"
+    description: "C++, Python, R, SQL"
 
-  - name: 'Machine learning library'
-    image: 'img/svg/line-chart.svg'
-    description: 'TensorFlow, PyTorch, Scikit-learn, Pandas, Numpy,'
-
-  - name: 'Creative Design'
+  - name: 'ML library'
     image: 'img/svg/light-bulb.svg'
-    description: 'Web design is a similar process of creation, with the intention of presenting...'
+    description: 'TensorFlow, Keras, PyTorch, Scikit-learn, Pandas, Numpy,'
+
+  - name: 'Data vizualization'
+    image: 'img/svg/line-chart.svg'
+    description: 'Matplotlib, Seaborn, Bokeh, Tabeau'
 
   - name: 'Adobe Illustrator'
     image: 'img/svg/adobe-illustrator.svg'
