@@ -176,7 +176,7 @@ our_services:
     description: 'Matplotlib, Seaborn, Bokeh, Tabeau, ggplot'
 
   - name: 'Platform and tools'
-    image: 'img/svg/cloud.svg'
+    image: 'img/svg/internet.svg'
     description: 'Linux, High performance computing (HPC), AWS, Spark'
 
   - name: 'Adobe Photoshop'
