@@ -132,10 +132,10 @@ user_intro: ' I am a Data scientist, and I&#39;m very passionate and dedicated t
 
 freelance_hire: true
 professions:
-  - Data scientist
-  - Data analyst
-  - Mechanical engineer
-  - Data scientist
+  -Data scientist
+  -Data analyst
+  -Mechanical engineer
+  -Data scientist
 author_description: "<strong>Hello, I’m a Molla Hafizur</strong>, web-developer based on Paris. <br> I have rich experience in web site design &amp; building <br> and customization. Also I am good at <strong>html, css, <br> wordpress, php, jquery, bootstrap.</strong>"
 social_link:
   - name: facebook
