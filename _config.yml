@@ -175,9 +175,9 @@ our_services:
     image: 'img/svg/line-chart.svg'
     description: 'Matplotlib, Seaborn, Bokeh, Tabeau, ggplot'
 
-  - name: 'Platform'
-    image: 'img/svg/console.svg'
-    description: 'Web design is a similar process of creation, with the intention of presenting...'
+  - name: 'Platform and tools'
+    image: 'img/svg/cloud.svg'
+    description: 'Linux, High performance computing (HPC), AWS, Spark'
 
   - name: 'Adobe Photoshop'
     image: 'img/svg/adobe-photoshop.svg'
