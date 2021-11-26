@@ -8,9 +8,9 @@
 jQuery(document).ready(function(){
 
 	"use strict";
-	
+
 	// here all ready functions
-	
+
 	arlo_tm_intro_tabs();
 	arlo_tm_bg_nav();
 	arlo_tm_popupscroll();
@@ -34,24 +34,24 @@ jQuery(document).ready(function(){
 	arlo_tm_videoplayer();
 	arlo_tm_totop();
 	arlo_tm_about_animation();
-	
-	
+
+
 	jQuery(window).on('resize',function(){
 		arlo_tm_scrollable();
 		arlo_tm_isotope();
 	});
-	
+
 	jQuery(window).on('scroll',function(){
 		arlo_tm_popupscroll();
 		arlo_tm_bg_nav();
 	});
-	
+
 	jQuery(window).load('body', function(){
 		setTimeout(function(){
         jQuery('.arlo_tm_preloader').addClass('loaded');
     }, 1000);
 	});
-	
+
 });
 
 // -----------------------------------------------------
@@ -64,10 +64,10 @@ jQuery(document).ready(function(){
 
 function arlo_tm_intro_tabs(){
 	"use strict";
-	
+
 	var button		= jQuery('.arlo_tm_intro_mainpart .main_filter ul li a');
 	var tabList		= jQuery('.arlo_tm_intro_mainpart .main_list');
-	
+
 	button.on('click',function(){
 		var element		= jQuery(this);
 		var elAttr		= element.attr('data-tab');
@@ -85,11 +85,11 @@ function arlo_tm_intro_tabs(){
 
 function arlo_tm_bg_nav(){
 	"use strict";
-	
+
 	jQuery(window).on('scroll',function(){
 		var menu	 		= jQuery('.arlo_tm_classic_menu');
 		var WinOffset		= jQuery(window).scrollTop();
-		
+
 		if(WinOffset >= 150){
 			menu.addClass('animate');
 		}else{
@@ -104,22 +104,22 @@ function arlo_tm_bg_nav(){
 // -----------------------------------------------------
 
 function arlo_tm_popupscroll(){
-	
+
 	"use strict";
-	
+
 	var H				= jQuery(window).height();
 	var scrollable		= jQuery('.arlo_tm_popup_news.scrollable');
-	
+
 	var popupBox		= jQuery('.arlo_tm_popup_news');
-	
+
 	popupBox.css({height:H-100});
-	
+
 	scrollable.each(function(){
 		var element		= jQuery(this);
 		var wH			= jQuery(window).height();
-		
+
 		element.css({height: wH});
-		
+
 		element.niceScroll({
 			touchbehavior:false,
 			cursorwidth:0,
@@ -135,7 +135,7 @@ function arlo_tm_popupscroll(){
 
 function arlo_tm_popup(){
 		"use strict";
-	
+
 		jQuery('.gallery_zoom').each(function() { // the containers for all your galleries
 			jQuery(this).magnificPopup({
 				delegate: 'a.zoom', // the selector for gallery item
@@ -172,9 +172,9 @@ function arlo_tm_popup(){
 // -------------------------------------------------
 
 function arlo_tm_anchor(){
-	
+
 	"use strict";
-	
+
 	jQuery('.arlo_tm_leftpart .inner .menu ul li a,.arlo_tm_topbar .dropdown .dropdown_inner ul li a').off().on('click',function(e){
 		e.stopPropagation();
 		var element = jQuery(this);
@@ -186,7 +186,7 @@ function arlo_tm_anchor(){
 		}
 		return false;
 	});
-	
+
 	jQuery('.arlo_tm_classic_menu .inner .menu ul li a').off().on('click',function(e){
 		e.stopPropagation();
 		var element = jQuery(this);
@@ -205,9 +205,9 @@ function arlo_tm_anchor(){
 // -----------------------------------------------------
 
 function arlo_tm_down(){
-	
+
 	"use strict";
-	
+
 	jQuery('.arlo_tm_arrow_wrap a').on('click',function(){
 		if($.attr(this, 'href') !== '#'){
 			$('html, body').animate({
@@ -239,11 +239,11 @@ function arlo_tm_down(){
 // -----------------------------------------------------
 
 function arlo_tm_imgtosvg(){
-	
+
 	"use strict";
-	
+
 	jQuery('img.svg').each(function(){
-		
+
 		var jQueryimg 		= jQuery(this);
 		var imgClass		= jQueryimg.attr('class');
 		var imgURL			= jQueryimg.attr('src');
@@ -273,12 +273,12 @@ function arlo_tm_imgtosvg(){
 // -------------------------------------------------
 
 function arlo_tm_kenburn_slider(){
-	
+
 	"use strict";
-	
+
 		jQuery(function() {
 			jQuery('.arlo_tm_hero_header .overlay_slider').vegas({
-			timer:false,	
+			timer:false,
 			animation: [ 'kenburnsUp',  'kenburnsLeft', 'kenburnsRight'],
 			delay:7000,
 
@@ -297,9 +297,9 @@ function arlo_tm_kenburn_slider(){
 // -------------------------------------------------
 
 function arlo_tm_scrollable(){
-	
+
 	"use strict";
-	
+
 	var H				= jQuery(window).height();
 	var scrollable		= jQuery('.arlo_tm_leftpart .inner .menu.scrollable');
 	var verMenu			= jQuery('.arlo_tm_leftpart .inner .menu');
@@ -307,10 +307,10 @@ function arlo_tm_scrollable(){
 	var socialHeight	= jQuery('.arlo_tm_leftpart .inner .bottom').outerHeight()+100;
 
 	verMenu.css({height:H-logoHeight-socialHeight});
-	
+
 	scrollable.each(function(){
 		var element		= jQuery(this);
-		
+
 		element.css({height: H-logoHeight-socialHeight}).niceScroll({
 			touchbehavior:false,
 			cursorwidth:0,
@@ -325,15 +325,15 @@ function arlo_tm_scrollable(){
 // -----------------------------------------------------
 
 function arlo_tm_switcher(){
-	
+
 	"use strict";
-	
+
 	var switcherOpener				= jQuery('.arlo_tm_leftpart .inner .resize');
 	var switcherIcon				= jQuery('.arlo_tm_leftpart .inner .resize a span');
 	var leftPart					= jQuery('.arlo_tm_leftpart');
 	var rightPart					= jQuery('.arlo_tm_rightpart');
 	var WW							= jQuery(window).width();
-	
+
 	switcherOpener.on('click',function(){
 		if(WW >= 1600){
 			if(switcherOpener.hasClass('opened')){
@@ -366,7 +366,7 @@ function arlo_tm_switcher(){
 		if(jQuery('.jarallax').length){
 			jQuery('.jarallax').jarallax('destroy');
 			setTimeout(function(){arlo_tm_jarallax();},300);
-		
+
 		}
 		return false;
 	});
@@ -377,14 +377,14 @@ function arlo_tm_switcher(){
 // -----------------------------------------------------
 
 function arlo_mobile_menu(){
-	
+
 	"use strict";
-		
+
 	var trigger			= jQuery('.arlo_tm_topbar .topbar_inner .trigger');
 	var triggerClose	= trigger.find('a .close');
 	var triggerMenu		= trigger.find('a .menu');
 	var dropdown		= jQuery('.arlo_tm_topbar .dropdown');
-	
+
 	trigger.on('click',function(){
 		var element	= jQuery(this);
 		if(element.hasClass('opened')){
@@ -407,11 +407,11 @@ function arlo_mobile_menu(){
 // -----------------------------------------------------
 
 function arlo_tm_data_images(){
-	
+
 	"use strict";
-	
+
 	var data			= jQuery('*[data-img-url]');
-	
+
 	data.each(function(){
 		var element			= jQuery(this);
 		var url				= element.data('img-url');
@@ -424,13 +424,13 @@ function arlo_tm_data_images(){
 // -------------------------------------------------
 
 function arlo_tm_animate_text(){
-	
+
 	"use strict";
-	
+
 	var animateSpan			= jQuery('.arlo_tm_animation_text_word');
-	
+
 		animateSpan.typed({
-			strings: ["Freelancer", "Web Developer", "Photographer"],
+			strings: ["Data Scientist", "Data Engineer", "Mechanical Engineer"],
 			loop: true,
 			startDelay: 1e3,
 			backDelay: 2e3
@@ -442,19 +442,19 @@ function arlo_tm_animate_text(){
 // -----------------------------------------------------
 
 function arlo_tm_jarallax(){
-	
+
 	"use strict";
-	
+
 	jQuery('.jarallax').each(function(){
 		var element			= jQuery(this);
 		var	customSpeed		= element.data('speed');
-		
+
 		if(customSpeed !== "undefined" && customSpeed !== ""){
 			customSpeed = customSpeed;
 		}else{
 			customSpeed 	= 0.5;
 		}
-		
+
 		element.jarallax({
 			speed: customSpeed,
 			automaticResize: true
@@ -467,9 +467,9 @@ function arlo_tm_jarallax(){
 // -----------------------------------------------------
 
 function tdProgress(container){
-	
+
 	"use strict";
-		
+
 	container.find('.progress_inner').each(function() {
 		var progress 		= jQuery(this);
 		var pValue 			= parseInt(progress.data('value'), 10);
@@ -486,14 +486,14 @@ function tdProgress(container){
 		"use strict";
 
 		var pWrap 			= jQuery(this);
-		pWrap.waypoint({handler: function(){tdProgress(pWrap);},offset:'90%'});	
+		pWrap.waypoint({handler: function(){tdProgress(pWrap);},offset:'90%'});
 	});
 
 // -------------------------------------------------
 // -----------------    PORTFOLIO    ---------------
 // -------------------------------------------------
 
-// filterable 
+// filterable
 
 function arlo_tm_portfolio(){
 
@@ -506,10 +506,10 @@ function arlo_tm_portfolio(){
 		var filter		 = jQuery('.arlo_tm_portfolio .portfolio_filter ul');
 
 		if(filter.length){
-			// Isotope Filter 
+			// Isotope Filter
 			filter.find('a').on('click', function(){
 				var selector = jQuery(this).attr('data-filter');
-				list.isotope({ 
+				list.isotope({
 					filter				: selector,
 					animationOptions	: {
 						duration			: 750,
@@ -518,22 +518,22 @@ function arlo_tm_portfolio(){
 					}
 				});
 				return false;
-			});	
+			});
 
 			// Change active element class
 			filter.find('a').on('click', function() {
 				filter.find('a').removeClass('current');
 				jQuery(this).addClass('current');
 				return false;
-			});	
+			});
 		}
 	}
 }
 
 function arlo_tm_projects() {
-	
+
 	"use strict";
-	
+
 	jQuery('.arlo_tm_portfolio_animation_wrap').each(function() {
 		jQuery(this).on('mouseenter', function() {
 			if (jQuery(this).data('title')) {
@@ -559,13 +559,13 @@ function arlo_tm_projects() {
 // -----------------------------------------------------
 
 function arlo_tm_isotope(){
-	
+
 	"use strict";
-	
+
 	jQuery('.masonry').isotope({
 		itemSelector: '.masonry_item',
 		masonry: {
-			
+
 		}
 	});
 }
@@ -575,44 +575,44 @@ function arlo_tm_isotope(){
 // -----------------------------------------------------
 
 function arlo_tm_contact_form(){
-	
+
 	"use strict";
-	
+
 	jQuery(".contact_form #send_message").on('click', function(){
-		
+
 		var name 		= jQuery(".contact_form #name").val();
 		var email 		= jQuery(".contact_form #email").val();
 		var message 	= jQuery(".contact_form #message").val();
 		var subject 	= jQuery(".contact_form #subject").val();
 		var success     = jQuery(".contact_form .returnmessage").data('success');
-	
+
 		jQuery(".contact_form .returnmessage").empty(); //To empty previous error/success message.
-		//checking for blank fields	
+		//checking for blank fields
 		if(name===''||email===''||message===''){
-			
+
 			jQuery('div.empty_notice').slideDown(500).delay(2000).slideUp(500);
 		}
 		else{
 			// Returns successful data submission message when the entered information is stored in database.
 			jQuery.post("modal/contact.php",{ ajax_name: name, ajax_email: email, ajax_message:message, ajax_subject: subject}, function(data) {
-				
+
 				jQuery(".contact_form .returnmessage").append(data);//Append returned message to message paragraph
-				
-				
+
+
 				if(jQuery(".contact_form .returnmessage span.contact_error").length){
-					jQuery(".contact_form .returnmessage").slideDown(500).delay(2000).slideUp(500);		
+					jQuery(".contact_form .returnmessage").slideDown(500).delay(2000).slideUp(500);
 				}else{
 					jQuery(".contact_form .returnmessage").append("<span class='contact_success'>"+ success +"</span>");
 					jQuery(".contact_form .returnmessage").slideDown(500).delay(4000).slideUp(500);
 				}
-				
+
 				if(data===""){
 					jQuery("#contact_form")[0].reset();//To reset form fields on success
 				}
-				
+
 			});
 		}
-		return false; 
+		return false;
 	});
 }
 
@@ -637,9 +637,9 @@ function arlo_tm_location(){
 // -------------------------------------------------
 
 function arlo_tm_ripple(){
-	
+
 	"use strict";
-	
+
 	jQuery('#ripple').ripples({
 			resolution: 500,
 			dropRadius: 20,
@@ -677,11 +677,11 @@ function arlo_tm_videoplayer(){
 // -----------------------------------------------------
 
 function arlo_tm_totop(){
-	
+
 	"use strict";
-	
+
 	jQuery(".arlo_tm_footer .footer_inner .top a").on('click', function(e) {
-		e.preventDefault();		
+		e.preventDefault();
 		jQuery("html, body").animate({ scrollTop: 0 }, 'slow');
 		return false;
 	});
@@ -692,12 +692,12 @@ function arlo_tm_totop(){
 // -----------------------------------------------------
 
 	function arlo_tm_about_animation(){
-		
+
 		"use strict";
-		
-		if ($('.parallax').length > 0) { 
+
+		if ($('.parallax').length > 0) {
 		  var scene = $('.parallax').get(0);
-		  var parallax = new Parallax(scene, { 
+		  var parallax = new Parallax(scene, {
 			relativeInput: true,
 			onReady: function() { console.log('ready!');
 		  } });
