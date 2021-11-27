@@ -190,25 +190,26 @@ our_services:
 ##################################################################
 ################  professional_skills ############################
 ##################################################################
-professional_skill_title: 'In a <span>short time</span>, I have been able to achieve excellence in all areas of app and web development.'
-professional_skill_description: 'I provide cost-effective and high quality products to meet our Clients’ needs of timely delivery World Wide. I want to be local in a global world to be where our Customers need our services customers need our services.'
+professional_skill_title: 'In <span>different projects</span>, I have used different tools to model, vizulalize and analyze machine learning problem .'
+professional_skill_description: 'While builiding machine learning and deep learning models, I try to understand the essence of data by feature engineering and vizulaizing.
+Also, after obtaining the result, I focus to interpret them  '
 
 professional_skills:
-  - name: 'WordPress'
-    percentage: '90'
-
-  - name: 'PHP / MYSQL'
-    percentage: '65'
-
-  - name: 'HTML / CSS / JS'
+  - name: 'Python'
     percentage: '95'
 
-  - name: 'Photoshop'
+  - name: 'SQL'
+    percentage: '80'
+
+  - name: 'ML libraries'
+    percentage: '95'
+
+  - name: 'Data vizulazation'
     percentage: '85'
 ##########################################
 ################ portfolios ##############
 #########################################
-portfolio_title: 'Creative Works'
+portfolio_title: 'ML Projects'
 portfolio_tagline: 'Portfolios'
 portfolio_categories: ['video', 'animation', 'image']
 
@@ -254,10 +255,10 @@ portfolios:
 ############## testimonial #################
 ############################################
 testimonials:
-  - quote: 'We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design. Awesome to work with Arlo. Incredibly organized, easy to communicate with, responsive with next iterations.'
-    author_name: 'Steve Collins'
+  - quote: 'I am an avid learner and always find interest in new challenge. I am deeply fascinated in machine learning and artificial intelligence. As a mechanical engineering student, I am trying to utilize the power of artificial intelligence in the engineering design field.'
+    author_name: 'Molla Hafizur Rahman'
     author_image: '/img/about/2.jpg'
-    author_profession: 'Photographer'
+    author_profession: 'Data scientist'
 
 #############################################
 ############ EXPERIENCE #####################
@@ -273,7 +274,7 @@ educations:
   - year: '2006 - 2009'
     title: 'Christofer College'
     description: 'Independent study is a form of education offered by many high schools, colleges, and other educational institutions. It is sometimes referred to as directed study.'
-  - year: '1996 - 2006'
+  - year: '2007 - 2009'
     title: 'Secondary School'
     description: 'Independent study is a form of education offered by many high schools, colleges, and other educational institutions. It is sometimes referred to as directed study.'
 
