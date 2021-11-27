@@ -308,7 +308,7 @@ pricing_table:
 
   - name: "Conference"
     icon: "img/svg/small-rocket-ship-silhouette.svg"
-    price: "500"
+#    price: "500"
     lines: >-
         <li><p>Design Embedding: Representation Learning of Design Thinking to Cluster Design Behaviors</p></li>
 #        <li><p>Creative Design</p></li>
