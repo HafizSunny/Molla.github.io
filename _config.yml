@@ -183,9 +183,9 @@ our_services:
     image: 'img/svg/service.svg'
     description: 'Solidworks, AutoCAD, 3DSMAX, ANSYS, Rhino'
 
-  - name: 'Social Media'
-    image: 'img/svg/twitter-1.svg'
-    description: 'Web design is a similar process of creation, with the intention of presenting...'
+  - name: 'Graphics tools'
+    image: 'img/svg/adobe-photoshop.svg'
+    description: 'Photoshop, Illustrator, Premier pro'
 
 ##################################################################
 ################  professional_skills ############################
