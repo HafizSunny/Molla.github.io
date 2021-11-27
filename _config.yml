@@ -181,7 +181,7 @@ our_services:
 
   - name: 'Engineering tools'
     image: 'img/svg/service.svg'
-    description: 'Web design is a similar process of creation, with the intention of presenting...'
+    description: 'Solidworks, AutoCAD, 3DSMAX, ANSYS, Rhino'
 
   - name: 'Social Media'
     image: 'img/svg/twitter-1.svg'
