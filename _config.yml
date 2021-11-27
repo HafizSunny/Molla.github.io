@@ -297,7 +297,7 @@ pricing_title: 'Selected machine learning fcoused papers'
 pricing_tagline: 'Publications'
 
 pricing_table:
-  - name: "Small"
+  - name: "Journal"
     icon: "img/svg/icon.svg"
 #    price: ""
     lines: >-
@@ -306,23 +306,23 @@ pricing_table:
 #        <li><p>Photography</p></li>
     url: "https://www.cambridge.org/core/journals/design-science/article/predicting-human-design-decisions-with-deep-recurrent-neural-network-combining-static-and-dynamic-data/097456E3CE09F11435F535B507AE9B8B"
 
-  - name: "Medium"
+  - name: "Conference"
     icon: "img/svg/small-rocket-ship-silhouette.svg"
     price: "500"
     lines: >-
-        <li><p>Web Development</p></li>
-        <li><p>Creative Design</p></li>
-        <li><p>Photography</p></li>
-    url: "#"
+        <li><p>Design Embedding: Representation Learning of Design Thinking to Cluster Design Behaviors</p></li>
+#        <li><p>Creative Design</p></li>
+#        <li><p>Photography</p></li>
+    url: "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2021/85420/V006T06A051/1128566"
 
-  - name: "Professional"
+  - name: "Conference"
     icon: "img/svg/fire.svg"
-    price: "999"
+#    price: "999"
     lines: >-
-        <li><p>Web Development</p></li>
-        <li><p>Creative Design</p></li>
-        <li><p>Photography</p></li>
-    url: "#"
+        <li><p>Automatic clustering of sequential design behaviors</p></li>
+#        <li><p>Creative Design</p></li>
+#        <li><p>Photography</p></li>
+    url: "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2018/V01BT02A041/273543"
 
 ########### Fun Facts ###############
 fun_facts:
