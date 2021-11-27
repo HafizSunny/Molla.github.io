@@ -268,22 +268,22 @@ experience_tagline: 'Working Process'
 experience_description: ''
 
 educations:
-  - year: '2009 - 2013'
-    title: 'University of Chicago'
-    description: 'Independent study is a form of education offered by many high schools, colleges, and other educational institutions. It is sometimes referred to as directed study.'
-  - year: '2006 - 2009'
-    title: 'Christofer College'
-    description: 'Independent study is a form of education offered by many high schools, colleges, and other educational institutions. It is sometimes referred to as directed study.'
+  - year: '2017 - 2022'
+    title: 'University of Arkansas'
+    description: 'Pursuing my PhD degree in Mechanical Engineering with a concentration of Application of Machine learning and deep learning in Engineering design '
+  - year: '2010 - 2015'
+    title: 'Bangladesh University of Engineering and Technology'
+    description: 'Completed my Bachelor of Science (BSc.) degree in Naval Architecture and Marine Engineering.'
   - year: '2007 - 2009'
     title: 'Secondary School'
-    description: 'Independent study is a form of education offered by many high schools, colleges, and other educational institutions. It is sometimes referred to as directed study.'
+    description: 'Completed my Higher Secondary Certificate (HSC) degree in Science major with a GPA 5.0. '
 
 experiences:
-  - year: '2018 - Current'
-    title: 'Web Developer'
+  - year: '2017 - Current'
+    title: 'Graduate research assistant'
     description: 'Web development refers to building, creating, and an maintaining websites. It includes aspects such as web design, web programming, and database management.'
-  - year: '2015 - 2018'
-    title: 'App Developer'
+  - year: '2015 - 2017'
+    title: 'Assistant Engineer'
     description: 'Web development refers to building, creating, and an maintaining websites. It includes aspects such as web design, web programming, and database management.'
   - year: '2013 - 2015'
     title: 'Ui/Ux Designer'
@@ -293,8 +293,8 @@ experiences:
 #################################
 ####### Pricing Tables ##########
 #################################
-pricing_title: 'PRICING'
-pricing_tagline: 'CHOOSE PLAN'
+pricing_title: 'Selected machine learning fcoused papers'
+pricing_tagline: 'Publications'
 
 pricing_table:
   - name: "Small"
