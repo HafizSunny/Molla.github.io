@@ -211,7 +211,7 @@ professional_skills:
 #########################################
 portfolio_title: 'ML Projects'
 portfolio_tagline: 'Portfolios'
-portfolio_categories: ['video', 'animation', 'image']
+portfolio_categories: ['Supervised', 'Unsupervised', 'Reinforcement learning']
 
 portfolios:
   - main_image: 'img/portfolio/1.jpg'

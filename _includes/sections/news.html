@@ -6,8 +6,8 @@
     <div class="arlo_tm_news">
         <div class="container">
             <div class="arlo_title_holder">
-                <span>Latest News</span>
-                <h3>News<a href="{{ 'blog' | relative_url }}" class="arlo_title_holder"><span> ( all ) </small></a></h3>
+                <span>Portfolio</span>
+                <h3>ML projects<a href="{{ 'blog' | relative_url }}" class="arlo_title_holder"><span> ( all ) </small></a></h3>
             </div>
             <div class="news_inner">
                 <ul>
@@ -25,7 +25,7 @@
                             <div class="details">
                                 <div class="date">
                                     <p>
-                                        {{ post.date | date: ' %b %d, %Y' }} by 
+                                        {{ post.date | date: ' %b %d, %Y' }} by
                                         <a href="#">{{ post.author | default: site.author }}</a>
                                     </p>
                                 </div>
@@ -35,7 +35,7 @@
                             </div>
                             <div class="full_des">
                                 {{ post.content }}
-                                
+
                                 {%- include social-share.html -%}
                             </div>
                         </div>
