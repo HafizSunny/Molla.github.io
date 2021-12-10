@@ -1,5 +1,5 @@
 ---
-title: post
+layout: post
 title: "Timeseries analysis with Recurrent neural network (LSTM/GRU)"
 author: Molla Hafizur Rahman
 categories: Regression
@@ -345,7 +345,7 @@ plt.show()
 ```
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Timeseries\output_24_0.png){: .align-center}{: width="650" }
+![image-center](/images/Timeseries/output_24_0.png){: .align-center}{: width="650" }
 
 
 
@@ -362,7 +362,7 @@ plt.show()
 ```
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Timeseries\output_25_0.png){: .align-center}{: width="650" }
+![image-center](/images/Timeseries/output_25_0.png){: .align-center}{: width="650" }
 
 
 
@@ -392,7 +392,7 @@ plt.show()
 ```
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Timeseries\output_27_0.png){: .align-center}{: width="650" }
+![image-center](/images/Timeseries/output_27_0.png){: .align-center}{: width="650" }
 
 
 
@@ -415,7 +415,7 @@ plt.show()
 ```
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Timeseries\output_28_0.png){: .align-center}{: width="650" }
+![image-center](/images/Timeseries/output_28_0.png){: .align-center}{: width="650" }
 
 
 
@@ -437,7 +437,7 @@ plt.show()
 ```
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Timeseries\output_29_0.png){: .align-center}{: width="650" }
+![image-center](/images/Timeseries/output_29_0.png){: .align-center}{: width="650" }
 
 
 
@@ -632,4 +632,4 @@ plt.show()
 ```
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Timeseries\output_36_0.png){: .align-center}{: width="650" }
+![image-center](/images/Timeseries/output_36_0.png){: .align-center}{: width="650" }

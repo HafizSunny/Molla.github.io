@@ -1,15 +1,11 @@
 ---
+layout: post
 title: "PCA analysis and clustering images"
+author: Molla Hafizur Rahman
 
-image: /images/cover.jpg
-categories:
-  - Classification
-tags:
-  - content
-  - image Classification
-  - convolutional neural Network
-  - CNN
-last_modified_at: 2021-03-17T10:46:49-04:00
+categories: Clustering
+tags: [PCA, CNN, Clustering]
+Date: 2021-03-17 10:46
 
 ---
 This project clusters images using K-means clustering algorithm. The dimensionality of the images are reduced by Principal component analysis (PCA).
@@ -91,7 +87,7 @@ plt.show()
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\PCA analysis and clustering images\output_5_0.png){: .align-center}
+![image-center](/images/PCA analysis and clustering images/output_5_0.png){: .align-center}
 
 
 
@@ -121,7 +117,7 @@ plt.show()
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\PCA analysis and clustering images\output_6_0.png){: .align-center}
+![image-center](/images/PCA analysis and clustering images/output_6_0.png){: .align-center}
 
 
 
@@ -156,7 +152,7 @@ plt.savefig('/jet/home/mhrahman/Projects/HW3/Figure/original.jpg',dpi = 300)
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\PCA analysis and clustering images\output_9_2.png){: .align-center}
+![image-center](/images/PCA analysis and clustering images/output_9_2.png){: .align-center}
 
 
 
@@ -186,7 +182,7 @@ plt.show()
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\PCA analysis and clustering images\output_11_0.png){: .align-center}
+![image-center](/images/PCA analysis and clustering images/output_11_0.png){: .align-center}
 
 
 
@@ -223,7 +219,7 @@ plt.show()
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\PCA analysis and clustering images\output_13_1.png){: .align-center}
+![image-center](/images/PCA analysis and clustering images/output_13_1.png){: .align-center}
 
 
 
@@ -371,7 +367,7 @@ plt.show()
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\PCA analysis and clustering images\output_19_1.png){: .align-center}
+![image-center](/images/PCA analysis and clustering images/output_19_1.png){: .align-center}
 
 
 

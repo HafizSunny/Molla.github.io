@@ -1,14 +1,10 @@
 ---
+title: post
 title: "Image classification by PCA and MLP"
-image: /images/dreamy.jpg
-categories:
-  - Classification
-tags:
-  - content
-  - image Classification
-  - Principal component analysis (PCA)
-  - Multilayer perceprton (MLP)
-last_modified_at: 2021-03-17T10:46:49-04:00
+author: Molla Hafizur Rahman
+categories: Classification
+tags: [image Classification, Principal component analysis (PCA), Multilayer perceprton (MLP)]
+Date: 2021-03-17 10:46
 
 ---
 In this Project, I perform Principal component analysis (PCA) on boiling images and identify useful PCs. The PCs are then used for classification
@@ -111,7 +107,7 @@ plt.savefig('/jet/home/mhrahman/Projects/HW4/Figures/PCA_variance_main.jpg',dpi 
 plt.show()
 ```
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image classification by PCA and MLP\PCA.jpg){: .align-center}{: width="650" }
+![image-center](/images/Image classification by PCA and MLP/PCA.jpg){: .align-center}{: width="650" }
 
 
 ```python
@@ -260,13 +256,13 @@ plt.show()
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image classification by PCA and MLP\output_17_0.png){: .align-center}
+![image-center](/images/Image classification by PCA and MLP/output_17_0.png){: .align-center}
 
 
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image classification by PCA and MLP\output_17_1.png){: .align-center}
+![image-center](/images/Image classification by PCA and MLP/output_17_1.png){: .align-center}
 
 
 
@@ -316,7 +312,7 @@ plt.show()
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image classification by PCA and MLP\output_20_1.png){: .align-center}
+![image-center](/images/Image classification by PCA and MLP/output_20_1.png){: .align-center}
 
 
 
@@ -362,7 +358,7 @@ plt.show()
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image classification by PCA and MLP\output_23_0.png){: .align-center}
+![image-center](/images/Image classification by PCA and MLP/output_23_0.png){: .align-center}
 
 
 
