@@ -1,15 +1,10 @@
 ---
 layout: post
 title: "Image Classification with Convolutional neural network"
-image: /images/dreamy.jpg
+date: 2021-03-17 8:29
 author: Molla Hafizur
-categories:
-  - Classification
-tags:
-  - image Classification
-  - convolutional neural Network
-  - CNN
-last_modified_at: 2021-03-17T10:46:49-04:00
+categories: Classification
+tags: [image Classification, convolutional neural Network, CNN]
 
 ---
 The target of this Project is to develop a model to classify the boiling regime (pre or post CHF) based on boiling images. The Classification task is performed by convolutional neural network (CNN)
@@ -94,7 +89,7 @@ imageplot(images)
 images.shape
 ```
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image Classification\output_7_0.png){: .align-center}
+![image-center](images\Image Classification\output_7_0.png){: .align-center}
 
 
 
