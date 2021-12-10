@@ -259,7 +259,7 @@ visualkeras.layered_view(model,legend = True,scale_xy=3,to_file='output.png')
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image Classification\output_18_0.png){: .align-center}
+![image-center](/images/Image Classification/output_18_0.png){: .align-center}
 
 
 
@@ -304,8 +304,8 @@ plt.savefig('/jet/home/mhrahman/Projects/HW2/Figures/Classification_loss.jpg',dp
 plt.show()
 ```
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image Classification\Classification_acc.jpg){: .align-center}{: width="650" }
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image Classification\Classification_loss.jpg){: .align-center}{: width="650" }
+![image-center](/images/Image Classification/Classification_acc.jpg){: .align-center}{: width="650" }
+![image-center](/images/Image Classification/Classification_loss.jpg){: .align-center}{: width="650" }
 
 ```python
 plt.plot(cb.logs)
@@ -316,7 +316,7 @@ plt.legend(['Time'],loc = 'upper right')
 #path = r'/jet/home/mhrahman/Projects/HW1/Figures/Classification_loss.jpg'
 plt.savefig(r'/jet/home/mhrahman/Projects/HW2/Figures/Time.jpg', dpi = 300)
 ```
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image Classification\Time.jpg){: .align-center}{: width="650" }
+![image-center](/images/Image Classification/Time.jpg){: .align-center}{: width="650" }
 
 
 
@@ -360,7 +360,7 @@ plt.savefig('/jet/home/mhrahman/Projects/HW2/Figures/Classification_conf_mat.jpg
 plt.show()
 ```
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image Classification\Classification_conf_mat.jpg){: .align-center}{: width="650" }
+![image-center](/images/Image Classification/Classification_conf_mat.jpg){: .align-center}{: width="650" }
 
 ```python
 from sklearn.metrics import accuracy_score,precision_score,recall_score,f1_score,roc_curve,roc_auc_score
@@ -400,7 +400,7 @@ plt.show()
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image Classification\Roc_curve.jpg){: .align-center}
+![image-center](/images/Image Classification/Roc_curve.jpg){: .align-center}
 
 
 
@@ -442,7 +442,7 @@ plt.savefig('/jet/home/mhrahman/Projects/HW2/Figures/main_image.jpg',dpi = 300)
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image Classification\output_33_0.png){: .align-center}
+![image-center](/images/Image Classification/output_33_0.png){: .align-center}
 
 
 
@@ -473,7 +473,7 @@ plt.show()
 
 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/images\Image Classification\output_35_0.png){: .align-center}
+![image-center](/images/Image Classification/output_35_0.png){: .align-center}
 
 
 
