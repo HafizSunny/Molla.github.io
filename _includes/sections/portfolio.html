@@ -13,7 +13,7 @@
                 <div class="arlo_tm_portfolio_titles"></div>
                 <div class="portfolio_filter">
                     <ul>
-                        <li><a href="#" class="current" data-filter="*">All</a></li>
+                        <li><a href="{{ 'blog' | relative_url }}" class="current" data-filter="*">All</a></li>
                         {%- for category in site.portfolio_categories -%}
                         <li><a href="#" data-filter=".{{category | downcase }}">{{category |capitalize }}</a></li>
                         {%- endfor -%}
@@ -33,7 +33,7 @@
                             </div>
                         </li>
                         {%- endfor -%}
-                        
+
                     </ul>
                 </div>
             </div>
