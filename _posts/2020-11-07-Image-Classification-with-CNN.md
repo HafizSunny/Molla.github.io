@@ -2,7 +2,7 @@
 layout: post
 title: "Image Classification with Convolutional neural network"
 date: 2021-03-17 8:29
-author: Molla Hafizur
+author: Molla Hafizur Rahman
 categories: Classification
 tags: [image Classification, convolutional neural Network, CNN]
 
@@ -89,7 +89,7 @@ imageplot(images)
 images.shape
 ```
 
-![image-center](images\Image Classification\output_7_0.png){: .align-center}
+![image-center](/images/Image Classification/output_7_0.png){: .align-center}
 
 
 
