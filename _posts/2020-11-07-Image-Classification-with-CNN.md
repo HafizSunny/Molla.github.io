@@ -1,5 +1,5 @@
 ---
-layout: post0
+layout: post
 title: "Image Classification with Convolutional neural network"
 image: /images/dreamy.jpg
 author: Molla Hafizur
