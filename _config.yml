@@ -218,7 +218,7 @@ portfolios:
     title: 'Popup Video'
     type: 'video'
     category: 'video'
-    video_link: 'https://www.youtube.com/watch?v=ICr_bOuM9Zo'
+    video_link: 'https://github.com/HafizSunny/Projects/blob/main/Classification/Classification.md'
 
   - main_image: 'img/portfolio/2.jpg'
     title: 'Popup Image'
