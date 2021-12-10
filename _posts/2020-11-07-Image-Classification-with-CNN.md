@@ -1,10 +1,11 @@
 ---
+layout: post0
 title: "Image Classification with Convolutional neural network"
 image: /images/dreamy.jpg
+author: Molla Hafizur
 categories:
   - Classification
 tags:
-  - content
   - image Classification
   - convolutional neural Network
   - CNN
