@@ -370,7 +370,7 @@ plt.savefig(r'/jet/home/mhrahman/Projects/HW7/Figures/from_file.jpg',dpi = 300)
 ```
 
 
-![image-center](/images/CNN Regression/output_38_0.png){: .align-center}{: width="650" }      
+![image-center](/images/LSTM_PCA/output_38_0.png){: .align-center}{: width="650" }      
 
 
 
@@ -382,7 +382,7 @@ plt.savefig(r'/jet/home/mhrahman/Projects/HW7/Figures/actual.jpg',dpi = 300)
 ```
 
 
-![image-center](/images/CNN Regression/output_39_0.png){: .align-center}{: width="650" }     
+![image-center](/images/LSTM_PCA/output_39_0.png){: .align-center}{: width="650" }     
 
 
 
@@ -399,7 +399,7 @@ plt.savefig(r'/jet/home/mhrahman/Projects/HW7/Figures/predicted.jpg',dpi = 300)
 ```
 
 
-![image-center](/images/CNN Regression/output_41_0.png){: .align-center}{: width="650" }     
+![image-center](/images/LSTM_PCA/output_41_0.png){: .align-center}{: width="650" }     
 
 
 
@@ -432,7 +432,7 @@ plt.show()
 ```
 
 
-![image-center](/images/CNN Regression/output_44_0.png){: .align-center}{: width="650" }    
+![image-center](/images/LSTM_PCA/output_44_0.png){: .align-center}{: width="650" }    
 
 
 
@@ -450,7 +450,7 @@ plt.show()
 ```
 
 
-![image-center](/images/CNN Regression/output_45_0.png){: .align-center}{: width="650" }    
+![image-center](/images/LSTM_PCA/output_45_0.png){: .align-center}{: width="650" }    
 
 
 
