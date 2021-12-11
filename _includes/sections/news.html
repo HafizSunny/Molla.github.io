@@ -20,13 +20,13 @@
                                 <div class="main" data-img-url="{{ 'img/news/1.jpg' | relative_url }}"></div>
                                 <div class="overlay"></div>
                                 <span class="category">{{ post.category }}</span>
-                                <a class="link" href="#"></a>
+                                <a class="link" href="{{ 'blog' | relative_url }}"></a>
                             </div>
                             <div class="details">
                                 <div class="date">
                                     <p>
                                         {{ post.date | date: ' %b %d, %Y' }} by
-                                        <a href="#">{{ post.author | default: site.author }}</a>
+                                        <a href="{{ 'blog' | relative_url }}">{{ post.author | default: site.author }}</a>
                                     </p>
                                 </div>
                                 <h3 class="title">
