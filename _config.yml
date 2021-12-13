@@ -216,9 +216,9 @@ portfolio_categories: ['Supervised', 'Unsupervised', 'Reinforcement learning']
 portfolios:
   - main_image: 'img/portfolio/1.jpg'
     title: 'Popup Video'
-    type: 'video'
+    type: 'Link'
     category: 'video'
-    video_link: 'https://github.com/HafizSunny/Projects/blob/main/Classification/Classification.md'
+    Link: 'https://github.com/HafizSunny/Projects/blob/main/Classification/Classification.md'
 
   - main_image: 'img/portfolio/2.jpg'
     title: 'Popup Image'

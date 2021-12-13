@@ -25,7 +25,7 @@
                         <li class="{{ portfolio.type | downcase }}">
                             <div class="inner">
                                 <div class="entry arlo_tm_portfolio_animation_wrap" data-title="{{ portfolio.title | capitalize }}" data-category="{{ portfolio.category | capitalize }}">
-                                    <a class="{%- if portfolio.type == 'video' -%}popup-youtube {%- else -%}  zoom {%- endif -%}" href="{{  portfolio.video_link| default: portfolio.main_image | relative_url }}">
+                                    <a class="{%- if portfolio.type == 'Link' -%}popup-Link {%- else -%}  zoom {%- endif -%}" href="{{  portfolio.Link| default: portfolio.main_image | relative_url }}">
                                         <img src="{{ 'img/portfolio/600x600.jpg' | relative_url }}" alt="" />
                                         <div class="main_image" data-img-url="{{ portfolio.main_image | relative_url }}"></div>
                                     </a>
