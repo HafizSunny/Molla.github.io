@@ -235,10 +235,10 @@ portfolios:
 
 
   - main_image: 'img/portfolio/4.jpg'
-    title: 'Popup Image'
-    type: 'image'
-    category: 'image'
-    video_link:
+    title: 'Future frame prediction'
+    type: 'Supervised'
+    category: 'In this project, I have predicted future frames applying PCA and LSTM'
+    Link: 'https://hafizsunny.github.io/blog/Future-frame-predition-using-LSTM.html'
 
   - main_image: 'img/portfolio/5.jpg'
     title: 'Popup Image'
