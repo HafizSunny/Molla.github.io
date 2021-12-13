@@ -223,8 +223,8 @@ portfolios:
   - main_image: 'img/portfolio/2.jpg'
     title: 'Clustering images'
     type: 'Unsupervised'
-    category: 'This project clusters images using K-means clustering.' +
-              'Before that the dimensionality of the images are reduced by PCA'
+    category: 'This project clusters images using K-means clustering.
+              Before that the dimensionality of the images are reduced by PCA'
     Link: 'https://hafizsunny.github.io/blog/PCA-analysis-and-clustering-images.html'
 
   - main_image: 'img/portfolio/8.webp'
