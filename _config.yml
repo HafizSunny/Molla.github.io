@@ -217,21 +217,21 @@ portfolios:
   - main_image: 'img/portfolio/1.jpg'
     title: 'Image classification'
     type: 'Supervised'
-    category: 'In this project, I have classified boiling images using CNN'
+    category: 'In this project, I have classified boiling images using CNN, PCA and MLP'
     Link: 'https://github.com/HafizSunny/Boiling-Images-classification'
 
   - main_image: 'img/portfolio/2.jpg'
     title: 'Clustering images'
     type: 'Unsupervised'
-    category: 'This project clusters images using K-means clustering.
+    category: 'This project clusters images using K-means clustering. \n
               Before that the dimensionality of the images are reduced by PCA'
     Link: 'https://hafizsunny.github.io/blog/PCA-analysis-and-clustering-images.html'
 
   - main_image: 'img/portfolio/3.jpg'
     title: 'Timeseries analysis'
     type: 'Supervised'
-    category: 'This project forecasts vapor fraction using LSTM/GRU'
-    Link: 'https://hafizsunny.github.io/blog/Time-series-analysis-by-LSTM-GRU.html'
+    category: 'This project forecasts vapor fraction using LSTM/GRU and CNN'
+    Link: 'https://github.com/HafizSunny/Vapor-fraction-prediction'
 
 
   - main_image: 'img/portfolio/4.jpg'
