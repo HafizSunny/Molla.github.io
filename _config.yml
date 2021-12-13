@@ -287,7 +287,7 @@ experiences:
     and reinforcement learning methods to solve prediction, classification and analysis problem.'
   - year: '2015 - 2017'
     title: 'Assistant Engineer'
-    description: 'Analyzed a time series analysis using ARIMA model in R on previous 5 years data set for billet production forecasting. Developed an AI driven breakdown planning or scheduled maintenance and preventive maintenance plannings.'
+    description: 'Analyzed a time series analysis using ARIMA model in R on previous 5 years data set for billet production forecasting.'
 
 #################################
 ####### Pricing Tables ##########
