@@ -227,7 +227,7 @@ portfolios:
               Before that the dimensionality of the images are reduced by PCA'
     Link: 'https://hafizsunny.github.io/blog/PCA-analysis-and-clustering-images.html'
 
-  - main_image: 'img/portfolio/8.webp'
+  - main_image: 'img/portfolio/3.jpg'
     title: 'Timeseries analysis'
     type: 'Supervised'
     category: 'This project forecasts vapor fraction using LSTM/GRU'
@@ -241,10 +241,10 @@ portfolios:
     Link: 'https://hafizsunny.github.io/blog/Future-frame-predition-using-LSTM.html'
 
   - main_image: 'img/portfolio/5.jpg'
-    title: 'Popup Image'
-    type: 'image'
-    category: 'image'
-    video_link:
+    title: '3D CAD models classification'
+    type: 'Supervised'
+    category: 'This project classify 3D CAD models using two DL models'
+    Link: 'https://github.com/HafizSunny/3D-CAD-model-classification'
 
   - main_image: 'img/portfolio/6.jpg'
     title: 'Popup Image'
