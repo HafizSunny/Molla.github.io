@@ -127,7 +127,7 @@ interests: 'Playstation, Reading'
 study: 'Univercity of Arkansas'
 degree: 'PhD'
 cv_download_link: '#'
-user_intro: ' I am a Data scientist, and I&#39;m very passionate and dedicated to my work. With 5+ years experience in data science and machine learning, I have acquired the skills and knowledge necessary to make a project a success.'
+user_intro: ' I am a Data scientist, and I&#39;m very passionate and dedicated to my work. With 5+ years experience in data science and machine learning, I have acquired the skills and knowledge necessary to make a project a successfull.'
 
 
 freelance_hire: true
@@ -223,7 +223,8 @@ portfolios:
   - main_image: 'img/portfolio/2.jpg'
     title: 'Clustering images'
     type: 'Unsupervised'
-    category: 'This project clusters images using K-means clustering. \n
+    category: 'This project clusters images using K-means clustering.
+    
               Before that the dimensionality of the images are reduced by PCA'
     Link: 'https://hafizsunny.github.io/blog/PCA-analysis-and-clustering-images.html'
 
@@ -243,7 +244,7 @@ portfolios:
   - main_image: 'img/portfolio/5.jpg'
     title: '3D CAD models classification'
     type: 'Supervised'
-    category: 'This project classify 3D CAD models using two DL models'
+    category: 'This project classify 3D CAD models using two DL methods'
     Link: 'https://github.com/HafizSunny/3D-CAD-model-classification'
 
   - main_image: 'img/portfolio/6.jpg'
