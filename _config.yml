@@ -216,8 +216,8 @@ portfolio_categories: ['Supervised', 'Unsupervised', 'Reinforcement learning']
 portfolios:
   - main_image: 'img/portfolio/1.jpg'
     title: 'Image classification'
-    type: 'In this project, I have classified boiling images using CNN'
-    category: 'Supervised'
+    type: 'Supervised'
+    category: 'In this project, I have classified boiling images using CNN'
     Link: 'https://github.com/HafizSunny/Projects/blob/main/Classification/Classification.md'
 
   - main_image: 'img/portfolio/2.jpg'
