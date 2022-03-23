@@ -248,9 +248,9 @@ portfolios:
     Link: 'https://github.com/HafizSunny/3D-CAD-model-classification'
 
   - main_image: 'img/portfolio/6.jpg'
-    title: 'Popup Image'
-    type: 'image'
-    category: 'image'
+    title: 'Sequence Embedding'
+    type: 'Unsupervised'
+    category: 'In this project, I use several embedding to convert low low-dimensional space'
     Link: 'https://github.com/HafizSunny/Design-Embedding'
 
 ############################################
